@@ -6,12 +6,10 @@ Only HTTP 1.1 is supported!
 Contact: shen_teng@engineering.ucla.edu or make an issue if you have any question
 
 ## System Requirement
-cmake 3.0
-
-libcurl-dev 
-[GoogleTest](https://github.com/google/googletest)
-
-[locust](https://docs.locust.io/en/stable/installation.html) for testing
+1. cmake 3.0
+2. libcurl-dev 
+3. [GoogleTest](https://github.com/google/googletest)
+4. [locust](https://docs.locust.io/en/stable/installation.html) for testing
 
 ### How to run
 ```bash
@@ -39,11 +37,11 @@ locust #`pip3 install locust` if you have not installed
 
 
 
-Then go to http://127.0.0.1:8089/ (This is web interface of locust)
+Then go to http://127.0.0.1:8089/ (This is web interface of locust).
 
-Enter Number of total users to simulate and Spawn rate
+Enter Number of total users to simulate and Spawn rate.
 
-Make sure the Host is **http://**localhost:[port number].
+Make sure the Host is ""**http://** localhost:[port number]".
 
 
 
