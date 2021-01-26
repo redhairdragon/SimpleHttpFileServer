@@ -37,8 +37,12 @@ locust #`pip3 install locust` if you have not installed
 
 ```
 
+
+
 Then go to http://127.0.0.1:8089/ (This is web interface of locust)
+
 Enter Number of total users to simulate and Spawn rate
+
 Make sure the Host is **http://**localhost:[port number].
 
 
